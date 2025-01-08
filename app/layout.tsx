@@ -3,6 +3,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
+import Image from 'next/image'
 import { ThemeProvider } from './providers/ThemeProvider'
 import ThemeToggle from './components/ThemeToggle'
 
@@ -41,16 +42,26 @@ export default function RootLayout({
             {/* Navigation */}
             <header className="bg-gradient-to-r from-indigo-500 to-purple-500 dark:from-indigo-600 dark:to-purple-600">
               <nav className="mx-auto max-w-7xl px-6 lg:px-8" aria-label="Top">
-                <div className="flex w-full items-center justify-between py-3">
-                  <div className="flex items-center">
+                <div className="flex w-full items-center justify-between py-2">
+                  <div className="flex items-center gap-4">
                     <Link
                       href="/"
-                      className="text-lg font-semibold leading-6 text-white hover:text-indigo-100 transition-colors"
+                      className="text-base font-semibold leading-6 text-white hover:text-indigo-100 transition-colors"
                     >
                       Nilu Isakova
                     </Link>
+                    <div className="relative w-12 h-12 rounded-full overflow-hidden ring-2 ring-white/30 hover:ring-white/60 transition-all duration-300 bg-gradient-to-b from-indigo-100/10 to-purple-100/10 shadow-lg hover:shadow-xl transform hover:scale-105">
+                      <Image
+                        src="/images/profile/avatar.jpg"
+                        alt="Nilu Isakova"
+                        width={48}
+                        height={48}
+                        className="object-cover transition-transform duration-300"
+                        priority
+                      />
+                    </div>
                   </div>
-                  <div className="ml-10 flex items-center space-x-8">
+                  <div className="flex items-center space-x-8">
                     <Link
                       href="https://github.com/isakovanilu"
                       className="text-sm font-semibold leading-6 text-white hover:text-indigo-100 transition-colors"
