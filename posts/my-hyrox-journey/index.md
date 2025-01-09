@@ -1,6 +1,6 @@
 ---
 title: 'My HYROX Journey: From Data Engineering to Functional Fitness'
-date: '2025-01-09'
+date: '2025-01-09T00:00:00.000Z'
 excerpt: 'How I balance my life as a data engineer with training for one of the most challenging fitness competitions - HYROX.'
 ---
 

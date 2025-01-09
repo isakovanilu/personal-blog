@@ -12,37 +12,28 @@ export type Post = {
   content: string;
 };
 
-export function formatDate(date: string): string {
-  return new Date(date).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  });
-}
-
 export function getAllPosts(): Post[] {
-  // Get directories within the posts folder
+  // Get all post directories
   const postDirs = fs.readdirSync(postsDirectory);
 
-  const posts = postDirs.map(dirName => {
-    // Read markdown file
-    const fullPath = path.join(postsDirectory, dirName, 'index.md');
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
+  const posts = postDirs
+    .filter(dir => fs.statSync(path.join(postsDirectory, dir)).isDirectory())
+    .map(dir => {
+      const fullPath = path.join(postsDirectory, dir, 'index.md');
+      const fileContents = fs.readFileSync(fullPath, 'utf8');
+      const { data, content } = matter(fileContents);
 
-    // Use gray-matter to parse the post metadata section
-    const { data, content } = matter(fileContents);
+      return {
+        slug: dir,
+        title: data.title,
+        date: new Date(data.date).toISOString(),
+        excerpt: data.excerpt,
+        content,
+      };
+    })
+    .sort((a, b) => (new Date(b.date).getTime() - new Date(a.date).getTime()));
 
-    return {
-      slug: dirName,
-      title: data.title,
-      date: data.date,
-      excerpt: data.excerpt,
-      content: content
-    };
-  });
-
-  // Sort posts by date
-  return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  return posts;
 }
 
 export function getPostBySlug(slug: string): Post | undefined {
@@ -54,11 +45,11 @@ export function getPostBySlug(slug: string): Post | undefined {
     return {
       slug,
       title: data.title,
-      date: data.date,
+      date: new Date(data.date).toISOString(),
       excerpt: data.excerpt,
-      content: content
+      content,
     };
-  } catch {
+  } catch (error) {
     return undefined;
   }
 } 
