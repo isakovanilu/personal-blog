@@ -1,6 +1,6 @@
 ---
 title: "From 10K to Half Marathon: Leveling Up My Running Journey"
-date: "2025-01-09"
+date: "2025-01-12"
 excerpt: "My journey of progressing from comfortable 10K runs to training for a half marathon, sharing experiences and lessons learned along the way."
 ---
 
