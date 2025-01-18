@@ -3,9 +3,10 @@ import { notFound } from 'next/navigation'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { getPostBySlug, getAllPosts } from '../../lib/posts'
+import { Metadata } from 'next'
 
 // Generate static params for all blog posts
-export function generateStaticParams() {
+export async function generateStaticParams() {
   const posts = getAllPosts()
   return posts.map((post) => ({
     slug: post.slug,
