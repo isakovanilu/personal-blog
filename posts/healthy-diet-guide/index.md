@@ -4,7 +4,6 @@ date: "2025-01-19"
 excerpt: "Exploring the intersection of technology and nutrition, breaking down healthy eating into manageable, systematic approaches that align with a tech professional's mindset."
 ---
 
-# Data-Driven Approach to Healthy Eating: A Software Engineer's Guide
 
 As a data engineer who spends long hours coding, I've learned that maintaining a healthy diet is crucial for sustained mental clarity and energy. Here's my systematic approach to healthy eating, broken down into manageable components.
 
