@@ -9,7 +9,8 @@ const postImages = {
   'future-of-data-engineering': 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=60',
   'my-hyrox-journey': 'https://images.unsplash.com/photo-1517963879433-6ad2b056d712?w=800&auto=format&fit=crop&q=60',
   'half-marathon-training': 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&auto=format&fit=crop&q=60',
-  'easy-5k-run': 'https://images.unsplash.com/photo-1502904550040-7534597429ae?w=800&auto=format&fit=crop&q=60'
+  'easy-5k-run': 'https://images.unsplash.com/photo-1502904550040-7534597429ae?w=800&auto=format&fit=crop&q=60',
+  'healthy-diet-guide': 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&auto=format&fit=crop&q=60'
 }
 
 const POSTS_PER_PAGE = 5
