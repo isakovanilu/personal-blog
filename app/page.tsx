@@ -11,7 +11,8 @@ const postImages = {
   'half-marathon-training': 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&auto=format&fit=crop&q=60',
   'easy-5k-run': 'https://images.unsplash.com/photo-1502904550040-7534597429ae?w=800&auto=format&fit=crop&q=60',
   'healthy-diet-guide': 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&auto=format&fit=crop&q=60',
-  'data-day-texas-2025': 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&auto=format&fit=crop&q=60'
+  'data-day-texas-2025': 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&auto=format&fit=crop&q=60',
+  'protein-based-diet': '/images/posts/protein-based-diet.png'
 }
 
 const POSTS_PER_PAGE = 5
