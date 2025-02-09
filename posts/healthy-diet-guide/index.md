@@ -1,6 +1,6 @@
 ---
 title: "Data-Driven Approach to Healthy Eating: A Data Engineer's Guide"
-date: "2025-01-19"
+date: "2025-02-08"
 excerpt: "Exploring the intersection of technology and nutrition, breaking down healthy eating into manageable, systematic approaches that align with a tech professional's mindset."
 ---
 

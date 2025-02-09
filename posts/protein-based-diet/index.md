@@ -1,7 +1,9 @@
 ---
 title: "Building a Healthy Protein-Based Diet: A Comprehensive Guide"
-date: "2024-03-26"
+date: "2025-02-09"
 excerpt: "A detailed guide to creating and maintaining a healthy protein-based diet, including food choices, meal timing, and practical tips for optimal nutrition."
+coverImage: "/images/posts/protein-based-diet.png"
+alt: "Various protein-rich foods including salmon, chicken, eggs, nuts, and legumes arranged on a wooden surface"
 ---
 
 # Building a Healthy Protein-Based Diet: A Comprehensive Guide
