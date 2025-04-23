@@ -1,8 +1,8 @@
 ---
 title: "DEKA Ultra: The Ultimate 50-Zone Endurance Challenge"
-date: "2025-04-21"
+date: "2025-04-20"
 excerpt: "Discover the DEKA Ultra - an intense 25K challenge featuring 50 functional fitness zones that will push your limits of strength, endurance, and mental fortitude."
-coverImage: "deka.png"
+coverImage: "/images/posts/deka.png"
 alt: "Athletes competing in various DEKA Ultra fitness zones with running tracks and functional fitness equipment"
 ---
 
