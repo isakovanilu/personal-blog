@@ -65,12 +65,16 @@ export default function RootLayout({
                     <Link
                       href="https://github.com/isakovanilu"
                       className="text-sm font-semibold leading-6 text-white hover:text-indigo-100 transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       GitHub
                     </Link>
                     <Link
-                      href="https://linkedin.com/in/niluisakova"
+                      href="https://www.linkedin.com/in/nisakova/"
                       className="text-sm font-semibold leading-6 text-white hover:text-indigo-100 transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       LinkedIn
                     </Link>
