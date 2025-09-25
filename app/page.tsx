@@ -16,7 +16,8 @@ const postImages = {
   '5k-daily-benefits': '/images/posts/5k.png',
   'deka-ultra-challenge': '/images/posts/deka.png',
   'running-everyday-8-months': '/images/posts/5k.png',
-  'deka-ultra-personal-experience': '/images/posts/deka.png'
+  'deka-ultra-personal-experience': '/images/posts/deka.png',
+  'daily-nutrition-plan': '/images/posts/protein-based-diet.png'
 }
 
 const POSTS_PER_PAGE = 5
