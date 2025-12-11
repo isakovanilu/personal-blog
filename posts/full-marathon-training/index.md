@@ -18,6 +18,8 @@ The decision to train for a full marathon came from:
 
 ## My Training Approach
 
+I used the **Runna app** for my training planning, which provided a structured and personalized approach to marathon training. The app helped me stay on track with a clear plan tailored to my fitness level and goals.
+
 ### Training Structure
 - **Base Building**: Started with moderate weekly volume, gradually building long runs
 - **Volume Building**: Increased weekly mileage with progressively longer long runs
