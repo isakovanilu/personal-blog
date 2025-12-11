@@ -17,7 +17,8 @@ const postImages = {
   'deka-ultra-challenge': '/images/posts/deka.png',
   'running-everyday-8-months': '/images/posts/5k.png',
   'deka-ultra-personal-experience': '/images/posts/deka.png',
-  'daily-nutrition-plan': '/images/posts/protein-based-diet.png'
+  'daily-nutrition-plan': '/images/posts/protein-based-diet.png',
+  'full-marathon-training': 'https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=800&auto=format&fit=crop&q=60'
 }
 
 const POSTS_PER_PAGE = 5
