@@ -58,7 +58,7 @@ The conversations I had during those 42 kilometers were some of the most meaning
 
 ### Race Strategy
 - **Pacing**: Started conservatively, slower than goal pace for the first portion
-- **Nutrition**: Gels regularly, water at every station
+- **Nutrition**: Gels regularly, banana, water at every station
 - **Mental Approach**: Broke the race into segments, focused on the current mile
 - **The Wall**: Prepared for the challenging later miles with proper pacing and nutrition
 
