@@ -2,6 +2,7 @@
 title: "Data Day Texas 2026: A High Signal Day for Data + AI"
 date: "2026-01-25"
 excerpt: "I attended Data Day Texas 2026 and loved the mix of fundamentals and reality checks."
+coverImage: "/images/posts/dataday2026.jpg"
 ---
 
 I attended Data Day Texas 2026 today and I’m leaving with that rare combination of energy and clarity. The schedule struck a great balance: strong fundamentals (databases, SQL, measurement) alongside the very real conversations around AI what works, what does not, and what it takes to make it useful in the real world.

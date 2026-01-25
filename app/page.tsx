@@ -12,6 +12,7 @@ const postImages = {
   'easy-5k-run': 'https://images.unsplash.com/photo-1502904550040-7534597429ae?w=800&auto=format&fit=crop&q=60',
   'healthy-diet-guide': 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800&auto=format&fit=crop&q=60',
   'data-day-texas-2025': 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&auto=format&fit=crop&q=60',
+  'data-day-texas-2026': '/images/posts/dataday2026.jpg',
   'protein-based-diet': '/images/posts/protein-based-diet.png',
   '5k-daily-benefits': '/images/posts/5k.png',
   'deka-ultra-challenge': '/images/posts/deka.png',
@@ -53,7 +54,11 @@ export default function Home() {
               >
                 <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0 overflow-hidden rounded-xl">
                   <Image
-                    src={postImages[post.slug as keyof typeof postImages]}
+                    src={
+                      post.coverImage ??
+                      postImages[post.slug as keyof typeof postImages] ??
+                      'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=60'
+                    }
                     alt={post.title}
                     fill
                     className="object-cover transition duration-300 group-hover:scale-105"
