@@ -1,5 +1,5 @@
 ---
-title: "Data Day Texas 2026: A High-Signal Day for Data + AI"
+title: "Data Day Texas 2026: A High Signal Day for Data + AI"
 date: "2026-01-25"
 excerpt: "I attended Data Day Texas 2026 and loved the mix of fundamentals and reality checks."
 ---
