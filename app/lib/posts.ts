@@ -27,6 +27,7 @@ export type Post = {
   excerpt: string;
   coverImage?: string;
   alt?: string;
+  coverImageFit?: 'cover' | 'contain';
   content: string;
 };
 
@@ -48,6 +49,10 @@ export function getAllPosts(): Post[] {
         excerpt: data.excerpt,
         coverImage: normalizeCoverImage(data.coverImage),
         alt: typeof data.alt === 'string' ? data.alt : undefined,
+        coverImageFit:
+          data.coverImageFit === 'contain' || data.coverImageFit === 'cover'
+            ? data.coverImageFit
+            : undefined,
         content,
       };
     })
@@ -69,6 +74,10 @@ export function getPostBySlug(slug: string): Post | undefined {
       excerpt: data.excerpt,
       coverImage: normalizeCoverImage(data.coverImage),
       alt: typeof data.alt === 'string' ? data.alt : undefined,
+      coverImageFit:
+        data.coverImageFit === 'contain' || data.coverImageFit === 'cover'
+          ? data.coverImageFit
+          : undefined,
       content,
     };
   } catch (error) {

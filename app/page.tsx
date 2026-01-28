@@ -61,7 +61,11 @@ export default function Home() {
                     }
                     alt={post.title}
                     fill
-                    className="object-cover transition duration-300 group-hover:scale-105"
+                    className={
+                      post.coverImageFit === 'contain'
+                        ? 'object-contain p-3 bg-white dark:bg-gray-900 transition duration-300'
+                        : 'object-cover transition duration-300 group-hover:scale-105'
+                    }
                     sizes="(min-width: 1024px) 16rem, (min-width: 640px) 50vw, 100vw"
                   />
                   <div className="absolute inset-0 rounded-xl ring-1 ring-inset ring-indigo-200 dark:ring-gray-700" />

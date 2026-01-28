@@ -2,8 +2,9 @@
 title: "Databricks BI Tools: A Practical Guide to Databricks SQL, Dashboards, and the Lakehouse"
 date: "2026-01-27"
 excerpt: "A hands-on overview of Databricks’ BI stack—Databricks SQL, dashboards, governance, and how to serve analytics to business users without losing control."
-coverImage: "/images/posts/data-engineering.jpg"
-alt: "Abstract data engineering visualization"
+coverImage: "/images/posts/databricks.png"
+alt: "Databricks logo"
+coverImageFit: "contain"
 ---
 
 Databricks has steadily evolved from a “Spark + notebooks” platform into a credible **BI and analytics serving** layer. If you’re already landing data in Delta Lake (or planning to), the BI question becomes less about *which tool has the prettiest charts* and more about **how you reliably serve metrics with governance, performance, and cost controls**.
