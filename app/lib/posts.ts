@@ -4,28 +4,11 @@ import matter from 'gray-matter';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
 
-function normalizeCoverImage(value: unknown): string | undefined {
-  if (typeof value !== 'string') return undefined;
-  const raw = value.trim();
-  if (!raw) return undefined;
-
-  // Allow fully-qualified URLs as-is.
-  if (/^https?:\/\//i.test(raw)) return raw;
-
-  // Common mistake: putting "public/..." in frontmatter. Public is the web root.
-  const withoutPublic = raw.replace(/^public\//i, '');
-
-  // Ensure leading slash for local assets (e.g. "images/posts/x.jpg" -> "/images/posts/x.jpg")
-  if (withoutPublic.startsWith('/')) return withoutPublic;
-  return `/${withoutPublic}`;
-}
-
 export type Post = {
   slug: string;
   title: string;
   date: string;
   excerpt: string;
-  coverImage?: string;
   content: string;
 };
 
@@ -45,7 +28,6 @@ export function getAllPosts(): Post[] {
         title: data.title,
         date: new Date(data.date).toISOString(),
         excerpt: data.excerpt,
-        coverImage: normalizeCoverImage(data.coverImage),
         content,
       };
     })
@@ -65,7 +47,6 @@ export function getPostBySlug(slug: string): Post | undefined {
       title: data.title,
       date: new Date(data.date).toISOString(),
       excerpt: data.excerpt,
-      coverImage: normalizeCoverImage(data.coverImage),
       content,
     };
   } catch (error) {
