@@ -1,7 +1,7 @@
 ---
 title: "September 2026 Walking Challenge: 615.3k Steps in a Competitive Group"
 date: "2026-10-22T12:00:00"
-excerpt: "A one-month walking challenge that looked impossible on day one. 615.3k steps, 469 km, and what a competitive group from the gym taught me about showing up every day."
+excerpt: "I started September sure I could not keep up. A competitive group from the gym, a daily 5K to 10K, and a StepUp month that ended at 615.3k steps."
 coverImage: "/images/posts/stepup-sep-2026.jpg"
 alt: "StepUp result for September 2026: 615.3k total steps, 469 km, or 11.1 marathons"
 coverImageFit: "contain"
@@ -9,22 +9,18 @@ coverImageFit: "contain"
 
 # September 2026 Walking Challenge: 615.3k Steps in a Competitive Group
 
-September 2026 was a one-month walking challenge with a group of ladies from the gym. On day one it looked impossible. They are very competitive, the daily numbers were already high, and I was not sure I could stay with them for thirty days.
+I started September with a group of ladies from the gym and a number I did not think I could hold for a whole month. They are competitive, and I love that. I would check the board, see someone still ahead, and feel that pull to go again. It kept me pushing. It also kept me learning, every ordinary day, how to fit more movement into a life that was already full.
 
-I stayed. StepUp closed the month at **615.3k total steps** — **469 km**, or **11.1 marathons**. That is about **20,500 steps a day**.
+I stayed in it. StepUp closed the month at **615.3k total steps** — **469 km**, or **11.1 marathons**. About **20,500 steps a day**. When that screen came up, I had to look at it twice. On day one, that total felt made up.
 
 ![StepUp September 2026 result: 615.3k total steps, 469 km, or 11.1 marathons](/images/posts/stepup-sep-2026.jpg)
 
-## The Group
+## What my days looked like
 
-I love being in that environment. If someone else is still moving, you find another 15 minutes. That pressure kept me pushing, and it kept me learning every day - how to fit the run in, when to walk, and how a small gap turns into a lost month if you ignore it. The group did not make the month easier. It made quitting feel like the worse option.
+I broke the month into the same few things, and I did them even when I was tired of them.
 
-## How I Kept Up
+Most days I ran somewhere between 5K and 10K. Easy when my legs were heavy, longer when I had it. Then I kept moving: the long way to the car, a lap while something cooked, on my feet instead of sitting the afternoon away. At night, if I was still short, I went back out for 15 or 20 minutes. That cleanup walk was rarely something I felt like doing. It was the moment I decided I still wanted to be in the group.
 
-I did not try to match the group in one long walk. I stacked the same few things every day.
+## What I want to keep
 
-- **A 5K to 10K run.** Some days easy, some days longer, before the day got away from me.
-- **Keep moving.** The longer route, walking between tasks, staying on my feet. Steps count either way.
-- **A 15–20 minute cleanup.** If I was short at the end of the day, I went out for a short walk. Most nights that was the difference between keeping up and sliding down the board.
-
-None of it came from one big weekend. I will keep the run and the extra movement. That is how you stay with a group like this. 🏃‍♀️
+The part I keep thinking about is the group. Someone else still moving meant I was not done with the day. I learned more on those quiet evenings than I did on the days that felt easy. I am keeping the run, and I am keeping the habit of just staying in motion. I am not ready to step away from people who pull this out of me. 🏃‍♀️
